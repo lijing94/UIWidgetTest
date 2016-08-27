@@ -23,4 +23,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Button"/>
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入你的账号"
+        android:maxLines="2"
+        />
+    <!--drawable里的文件必须添加到库里，res->drawable,这样才能识别，否则会说找不到原文件-->
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sitansen"
+        />
 </LinearLayout>
